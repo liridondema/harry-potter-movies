@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class MovieService {
   private _http = inject(HttpClient);
-  private _api = 'https://localhost:443/movies/';
+  private _api = 'https://harry-potter-movies-tau.vercel.app/movies/';
 
   private _movies$: Observable<Movie[]> = this._http.get<Movie[]>(this._api);
 
