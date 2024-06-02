@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/mini.css/dist/mini-dark.min.css";
+
+.container {
+    width: 60%;
+  }
+  
+  .col-sm-3{
+      display : flex;
+      justify-content: center !important;
+      align-items: center !important;
+      text-align: center !important;
+  }
