@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class MovieService {
   private _http = inject(HttpClient);
-  private _api = 'http://localhost:4200/movies/';
+  private _api = 'http://127.0.0.1:4200/movies/';
 
   private _movies$: Observable<Movie[]> = this._http.get<Movie[]>(this._api);
 
